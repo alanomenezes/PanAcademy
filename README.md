@@ -1,4 +1,8 @@
-Nome:Alano C M Menezes
+# Alano C M Menezes
 
-*Prato Favorito*:
-  Lazanha
+## Pratos Favorito :man_cook:
+
+1. Carne com fritas  :meat_on_bone: :potato:
+
+   
+
