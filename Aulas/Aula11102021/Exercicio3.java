@@ -1,3 +1,11 @@
+/*
+ * 3)	Escreva um programa que leia as medidas dos lados de um triângulo e escreva se ele é Equilátero, Isósceles ou Escaleno. Sendo que:
+− Triângulo Equilátero: possui os 3 lados iguais.
+− Triângulo Isóscele: possui 2 lados iguais.
+− Triângulo Escaleno: possui 3 lados diferentes.
+ */
+
+
 import java.util.Scanner;
 
 public class Exercicio3 {
@@ -18,11 +26,11 @@ public class Exercicio3 {
         
         
         if(side1 == side2 && side2 == side3) {
-        	System.out.println("Tri�ngulo Equil�tero.");
+        	System.out.println("Triângulo Equilátero.");
         }else if(side1 == side2 || side1 == side3 || side2 == side3) {
-        	System.out.println("Tri�ngulo Is�scele.");        	
+        	System.out.println("Triângulo Isóscele.");        	
         }if(side1 != side2 && side1 != side3 && side2 != side3) {
-        	System.out.println("Tri�ngulo Escaleno."); 
+        	System.out.println("Triângulo Escaleno."); 
         }     
         sc.close();
 	}
