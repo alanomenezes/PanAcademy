@@ -26,7 +26,7 @@ public class UsuarioService {
 		Usuario newObj = findById(id);
 		newObj.setNome(obj.getNome());
 		newObj.setSenha(obj.getSenha());
-		return repository.save(obj);
+		return repository.save(newObj);
 	}
 	
 	public Usuario create(Usuario obj) {
